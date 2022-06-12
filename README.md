@@ -1,14 +1,15 @@
 # ゲーム画面
+![main](https://user-images.githubusercontent.com/55316963/173238805-95cfe84a-2cb4-4f59-bea9-d1050b633cc7.png)
 
 ## このプロジェクトについて
-[DXライブラリ](https://dxlib.xsrv.jp/)で縁日ゲームを作るプロジェクトです。
+[SDL2](https://www.libsdl.org/)でタイピングソフトを作るプロジェクトです。
 
 ### メンバー
 - [312k](https://github.com/312k)
 
 ### セットアップ
 
-このプログラムは[Visual Studio 2022](https://visualstudio.microsoft.com/ja/)にて開発されました。<br>
+このプログラムは[Visual Studio 2022](https://visualstudio.microsoft.com/ja/)にて開発されました。  
 このリポジトリから直接[ビルド](https://docs.microsoft.com/ja-jp/visualstudio/ide/compiling-and-building-in-visual-studio?view=vs-2022)ができます。  
 ビルドする際には[SDL2](https://www.libsdl.org/)と[SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/)が必要です。  
 
