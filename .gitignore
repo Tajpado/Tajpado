@@ -1,0 +1,10 @@
+Debug/
+Release/
+Log.txt
+*.suo
+*.vcxproj.user
+*.sdf
+ipch
+.vs
+SDL2/
+x64/
