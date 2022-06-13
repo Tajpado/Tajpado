@@ -1,5 +1,6 @@
 # ゲーム画面
-![main](https://user-images.githubusercontent.com/55316963/173238805-95cfe84a-2cb4-4f59-bea9-d1050b633cc7.png)
+![main](https://user-images.githubusercontent.com/55316963/173372695-f233805c-f6df-47a5-9659-36a13ab1e1af.png)
+
 
 ## このプロジェクトについて
 [SDL2](https://www.libsdl.org/)でタイピングソフトを作るプロジェクトです。
