@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 
-
 int main(int argc, char** argv) {
 	SDL_Window* window;
 	SDL_Event exit;
@@ -23,8 +22,8 @@ int main(int argc, char** argv) {
 	SDL_Rect time_rect{
 		time_rect.x = 520,
 		time_rect.y = 260,
-		time_rect.w = 270,
-		time_rect.h = 240
+		time_rect.w = 200,
+		time_rect.h = 100
 	};
 	SDL_SetWindowTitle(window, "Tajpado");
 	//レンダラー
@@ -47,7 +46,7 @@ int main(int argc, char** argv) {
 		}
 		SDL_RenderCopy(renderer,
 			SDL_CreateTextureFromSurface(renderer,
-				TTF_RenderUTF8_Blended(font, reinterpret_cast<const char*>(u8"アイスを愛す"), SDL_Color{0,120, 120, 120})),
+				TTF_RenderUTF8_Blended(font,"ねこちゃん", SDL_Color{0,120, 120, 120})),
 			NULL, &time_rect);
 		SDL_RenderPresent(renderer);
 	}
