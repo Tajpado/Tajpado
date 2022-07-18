@@ -48,6 +48,7 @@ int main(int argc, char** argv) {
 			SDL_CreateTextureFromSurface(renderer,
 				TTF_RenderUTF8_Blended(font,"ねこちゃん", SDL_Color{0,120, 120, 120})),
 			NULL, &time_rect);
+		// 画面に反映させる
 		SDL_RenderPresent(renderer);
 	}
 	SDL_DestroyWindow(window);
